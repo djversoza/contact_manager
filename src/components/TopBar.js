@@ -12,9 +12,6 @@ class TopBar extends React.Component{
             <div>
                 <Menu>
                     <Menu.Item header>Contact Manager</Menu.Item>
-                    <Menu.Item >
-                        <Button onClick={this.handleItemClick} primary>Add a contact</Button>
-                     </Menu.Item>
                 </Menu>
             </div>
 
